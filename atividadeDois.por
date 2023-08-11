@@ -18,7 +18,7 @@ programa
 
 		escreva("Números Ímpares:\n")
 		para(ind = 0; ind<10; ind++){
-			se(list[ind] % 3 == 0){
+			se(list[ind] % 2 != 0){
 				escreva(list[ind], "  ")
 			}
 		}
@@ -49,7 +49,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 9; 
+ * @POSICAO-CURSOR = 281; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
